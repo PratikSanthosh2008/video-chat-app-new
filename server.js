@@ -31,7 +31,7 @@ const transporter = nodemailer.createTransport({
     },
     secure: true,
 });
-
+//hello
 app.get("/", (req, res) => {
     res.redirect(`/${uuidv4()}`);
 });
